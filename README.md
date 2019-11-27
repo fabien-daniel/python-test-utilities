@@ -3,7 +3,7 @@ Some test utilities and performance for python
 
 ## Test performance filter() vs for loop
 
-Here some result of the script :
+Here some result of the script
 
 command :
 ```
@@ -16,3 +16,5 @@ grammaticalLabelList length = 100000000 time = 0:03:22.875210
 nounListByFilter length = 33664795 time = 0:00:14.226510
 nounListByLoop length = 33664795 time = 0:00:17.907923
 ```
+
+filter() seems to be 20% faster than a for loop
